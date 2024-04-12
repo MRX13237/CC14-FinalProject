@@ -9,6 +9,7 @@
   scroll-behavior: smooth;
   scroll-padding-top: 2rem;
   font-family: "Poppins", sans-serif;
+  max-width: 100%;
 }
 :root {
   --main-color: #033a80;
@@ -474,6 +475,8 @@ form textarea {
     font-size: var(--p-font);
     font-weight: 400;
     text-align: justify;
+    justify-content: center;
+    align-items: center;
   }
   .contact-form form{
     width: 300px;

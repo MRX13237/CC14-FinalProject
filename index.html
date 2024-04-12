@@ -157,8 +157,7 @@
     <section class="portfolio" id="portfolio">
         <div class="heading">
             <h2>Portfolio</h2>
-            <span>Our Recent Work</span>
-        </div>
+            </div>
         <div class="portfolio-content">
             <div class="portfolio-img">
                 <img src="1.jpg" alt="">
@@ -191,11 +190,13 @@
             <h2>Contact</h2>
             </div>
         <div class="contact-form">
-            <form action="">
-                <input type="text" placeholder="Your Name">
-                <input type="email" name="" id="" placeholder="Your Email">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
-                <input type="button" value="Send" class="contact-button">
+                <form action="https://formsubmit.co/pinecitymedia@gmail.com"method="POST">
+                <input type="text" name="name" required placeholder="Name">
+                <input type="email" name="email" placeholder="Email">
+                <textarea name="message"  cols="30" rows="10" required placeholder="Write Message Here..."></textarea>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table"> 
+                <button type="submit">Submit</button>
             </form>
         </div>
     </section>
